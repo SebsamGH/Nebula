@@ -6,11 +6,11 @@ import psycopg2
 app = Flask(__name__)
 
 # Database connection details
-DB_ENDPOINT = 'nebula-db.cd2ae4g4q9fu.us-east-2.rds.amazonaws.com'
+DB_ENDPOINT = '127.0.0.1'
 DB_PORT = '5432'
-DB_NAME = 'nebula-db'
-DB_USER = '504232514998'
-DB_PASSWORD = 'Creativity1'
+DB_NAME = 'nebula'
+DB_USER = 'postgres'
+DB_PASSWORD = 'postgres'
 
 
 
